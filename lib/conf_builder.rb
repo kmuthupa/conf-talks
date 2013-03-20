@@ -5,6 +5,13 @@
 
 require 'YAML'
 require 'version'
+require 'talk'
+require 'lightning_talk'
+require 'thirty_min_talk'
+require 'fortyfive_min_talk'
+require 'sixty_min_talk'
+require 'track'
+require 'talk_factory'
 
 module ConfBuilder
 
@@ -14,7 +21,7 @@ module ConfBuilder
 
   def self.run
     begin
-      list = YAML.load(File.open('./talks.yml'))
+      list = YAML.load(File.open('talks.yml'))
       @@thirty_min_talks = []
       @@fortyfive_min_talks = []
       @@sixty_min_talks = []
