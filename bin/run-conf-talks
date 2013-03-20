@@ -1,0 +1,3 @@
+# start up the CLI
+require 'conf_builder'
+ConfBuilder.start(*ARGV)

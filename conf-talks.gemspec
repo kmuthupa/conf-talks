@@ -9,8 +9,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Karthik Muthupalaniappan"]
   gem.email         = ["karthik.swaminathan@gmail.com"]
   gem.description   = %q{This gem is the solution to the conference talks problem}
-  gem.summary       = %q{This gem is the solution to the conference talks problem}
-  gem.homepage      = "www.karthikmuthu.in"
+  gem.summary       = %q{This gem is the solution to the conference talks problem. Uses a yml to feed in the list of talks.}
+  gem.homepage      = "http://www.karthikmuthu.in"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

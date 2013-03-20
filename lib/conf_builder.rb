@@ -7,6 +7,11 @@ require 'YAML'
 require 'version'
 
 module ConfBuilder
+
+  def self.start(*args)
+    run
+  end
+
   def self.run
     begin
       list = YAML.load(File.open('./talks.yml'))
