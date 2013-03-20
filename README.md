@@ -17,3 +17,6 @@ Assumptions that drove this solution:
 
 To run and test the solution:
 
+1. gem install 'conf-talks'
+2. run-conf-talks
+
