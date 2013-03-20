@@ -13,7 +13,7 @@ Assumptions that drove this solution:
 2. The max duration of the pre-lunch session and the post-lunch session is 3 hours and 4 hours respectively
 3. Longer talks occur before shorter ones in a track
 4. The conference consists of two tracks only
-5. The list of talks is fed via the talks.yml sitting under the test dir
+5. The list of talks is fed via the talks.yml sitting in the root
 
 To run and test the solution:
 
