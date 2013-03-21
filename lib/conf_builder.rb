@@ -3,7 +3,6 @@
 ## Run method processes the list of talks to build conference tracks
 ####
 
-require 'YAML'
 require 'version'
 require 'talk'
 require 'lightning_talk'
